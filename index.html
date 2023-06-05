@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validatiopn-Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/index.js" defer></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Registration Form</h1>
+      </div>
+      <form class="form" id="form">
+        <div class="form-control">
+          <label >Username</label>
+          <input type="text" placeholder="Enter your name" id="username" autocomplete="off"/>
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg</small>
+        </div>
+        <div class="form-control">
+          <label >Email</label>
+          <input type="email" placeholder="Enter your e-mail" id="email" autocomplete="off"/>
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg</small>
+        </div>
+        <div class="form-control">
+          <label >Password</label>
+          <input type="password" placeholder="Enter your password" id="password"autocomplete="off" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg</small>
+        </div>
+        <div class="form-control">
+          <label >Confirm Password</label>
+          <input type="password" placeholder="Confirm your password" id="cpassword"autocomplete="off" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg</small>
+        </div>
+        
+        <div class="form-control">
+          <label >Phone number</label>
+          <input type="tel" placeholder="Enter your number" id="number" autocomplete="off"/>
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg</small>
+        </div>
+        <div class="form-control">
+          <label >Date of birth</label>
+          <input type="date" placeholder="Enter your dob" id="dob" autocomplete="off" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg</small>
+        </div>
+        <input type="submit" value="Submit"class="btn">
+      </form>
+    </div>
+  </body>
+</html>
